@@ -1,0 +1,30 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/afkguy/the-codes/OpenSyncV/OpenSync/OpenSync/src/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_3f1eb399"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/home/afkguy/the-codes/OpenSyncV/OpenSync/OpenSync/src/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_1685f4a8"
+  },
+  {
+    "name": "posts-id",
+    "path": "/posts/:id?",
+    "component": "/home/afkguy/the-codes/OpenSyncV/OpenSync/OpenSync/src/pages/posts/_id.vue",
+    "chunkName": "pages/posts/_id",
+    "_name": "_1e713f0a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/afkguy/the-codes/OpenSyncV/OpenSync/OpenSync/src/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5ed68e5e"
+  }
+]

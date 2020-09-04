@@ -1,0 +1,41 @@
+{
+  "name": "OpenSync",
+  "version": "1.0.0",
+  "description": "ServiceStack Nuxt.js project",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm run build",
+    "dev": "nuxt",
+    "dtos": "cd src/shared && x typescript && tsc -m ES6 dtos.ts",
+    "build": "nuxt build",
+    "publish": "npm run build && dotnet publish -c Release",
+    "lint": "eslint --ext .js,.vue .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@servicestack/client": "^1.0.32",
+    "babel-runtime": "^6.26.0",
+    "nuxt": "^2.14.4",
+    "vue-videobg": "^2.0.0",
+    "vuetify-video-parallax": "^1.0.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@mdi/js": "^5.5.55",
+    "@nuxtjs/proxy": "^2.0.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "@servicestack/cli": "^1.0.10",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "gulp": "^4.0.2",
+    "material-design-icons-iconfont": "^6.0.1",
+    "node-fetch": "^2.6.0",
+    "postcss-cssnext": "^3.1.0",
+    "typescript": "^3.9.7",
+    "vue": "^2.6.12"
+  }
+}
